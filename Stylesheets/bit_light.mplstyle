@@ -1,0 +1,75 @@
+# 
+#                                                                       
+#  ____  _ _      _____ _         _         _____ _               _     
+# |  _ \(_) |    / ____| |       | |       / ____| |             | |    
+# | |_) |_| |_  | (___ | |_ _   _| | ___  | (___ | |__   ___  ___| |_   
+# |  _ <| | __|  \___ \| __| | | | |/ _ \  \___ \| '_ \ / _ \/ _ \ __|  
+# | |_) | | |_   ____) | |_| |_| | |  __/  ____) | | | |  __/  __/ |_   
+# |____/|_|\__| |_____/ \__|\__, |_|\___| |_____/|_| |_|\___|\___|\__|    
+#                            __/ |                                      
+#                           |___/                                       
+#
+#
+#   for a demo see: http://wwww.link.nl       
+#                                                               
+#	Bit Colours:
+#		- Blue: 		#8caadc
+#       - Pink: 		#fcb1ca
+#       - Orange: 		#efb116
+#       - Dark blue:	#000563
+#       - Green:		#005f32
+#       - Red:			#c51914
+#       - Sand:			#cec3bc, or RGBA(206/256, 195/256, 188/256, 1.0)
+#
+
+# FONTS ----------------------------------------------------------------------------------------
+
+font.family: 		Roobert, Arial, sans-serif
+font.serif: 		Century, serif
+font.sans-serif: 	Roobert, Arial
+font.size: 			24
+text.color:  		000563     					# Bit dark blue
+
+# GRID THINGS ----------------------------------------------------------------------------------
+
+grid.color:     	white  						# grid color
+grid.linestyle: 	--      					# solid
+grid.linewidth: 	0.8     					# in points
+grid.alpha:     	1.0     					# transparency (not transparent)
+axes.grid: 			True						# show grid
+axes.linewidth: 	0 							# no border around the plot
+axes.axisbelow:		True						# draw grid behind plot elements
+
+# BACKGROUND COLOURS ---------------------------------------------------------------------------
+
+figure.facecolor: 	(1.0, 1.0, 1.0, 0.0)		# transparent figure background when displaying
+savefig.facecolor: 	(1.0, 1.0, 1.0, 0.0)		# transparent figure background when saving
+axes.facecolor: 	(0.887, 0.871, 0.859, 1.0)	# sand colour behind axis
+
+# LABELS ---------------------------------------------------------------------------------------
+axes.labelsize: 	14
+axes.labelpad: 		20								 
+axes.labelcolor: 	000563						# dark blue
+
+# TICKS ----------------------------------------------------------------------------------------
+xtick.labelsize: 	14
+ytick.labelsize: 	14
+xtick.color: 		000563						# dark blue
+ytick.color: 		000563						# dark blue
+
+# PLOTTING -------------------------------------------------------------------------------------
+# Set colours to use for plotting things: blue, red, orange, pink, green
+axes.prop_cycle: cycler(color=['8caadc', 'c51914', 'efb116', 'fcb1ca', '005f32']) 
+
+lines.linewidth: 5								# Line properties
+
+# LEGEND -------------------------------------------------------------------------------------- 
+legend.frameon: 	False 						# no background
+legend.loc: 		upper right 				# next to the plot upper right, for moving 
+												# outside the frame use the loc property in 
+												# .legend(loc=(x, y))
+legend.fontsize: 	xx-small					# extra small font (Roobert is relatively big, 
+												# so we need extra small)
+
+# TITLE --------------------------------------------------------------------------------------
+axes.titlesize : 	40
