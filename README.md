@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 plt.style.use('bit_light') # or change to bit_dark
 ```
 
-<table><tr><td>**Light**</br><img src='Exports/light_demo_2.png'></td><td>**Dark**</br><img src='Exports/dark_demo_2.png'></td></tr></table>
+<table><tr><td>Light theme</br><img src='Exports/light_demo_2.png'></td><td>Dark</br><img src='Exports/dark_demo_2.png'></td></tr></table>
 
 ## Fonts
 Also make sure you have the fonts installed which can be found [here](https://drive.google.com/drive/u/1/folders/1xzeIhI2yAhqHaqm4qpDM6jxE5PXsdpRv).
