@@ -72,7 +72,7 @@ def polylinear_gradient(colors, n):
 
     return gradient_dict
 
-def make_cmap(list_of_colours, N=1000):
+def make_cmap(list_of_colours, n_colors=1000):
     interpolated_colors = polylinear_gradient(list_of_colours, n_colors)
     cmap = mcolors.ListedColormap([[interpolated_colors['r'][i]/256, interpolated_colors['g'][i]/256, interpolated_colors['b'][i]/256] for i in range(n_colors-5)])
     return cmap
